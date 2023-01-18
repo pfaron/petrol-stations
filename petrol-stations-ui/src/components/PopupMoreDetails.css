@@ -1,0 +1,36 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border: 0;
+  text-align: left;
+  padding: 8px;
+  white-space: nowrap;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.up-vote-count {
+  color: green;
+}
+
+.down-vote-count {
+  color: red;
+}
+
+.main-container {
+  min-width: 380px;
+}
+
+.table-container {
+  max-height: 200px;
+  overflow: scroll;
+}
+
+.refresh-data {
+  cursor: pointer;
+}

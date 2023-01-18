@@ -1,0 +1,31 @@
+.info-overview {
+  display: flex;
+  flex-direction: column;
+}
+
+.station-name {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.station-brand {
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 8px;
+}
+
+.station-address {
+  font-size: 12px;
+}
+
+.leaflet-popup-content p {
+  margin: 4px 0;
+}
+
+.icon-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  font-size: 20px;
+}

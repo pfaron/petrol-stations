@@ -1,0 +1,38 @@
+.leaflet-container {
+  width: 100wh;
+  height: 100vh;
+}
+
+.list-element {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background: #7647A6;
+  border-radius: 3px;
+  text-align: center;
+  cursor: pointer;
+  pointer-events: auto;
+  font-weight: bold;
+}
+
+.list-element:hover {
+  background: #6d3e9e;
+}
+
+.list-element + .list-element {
+  margin-top: 8px;
+}
+
+.list-wrapper {
+  position: absolute;
+  min-width: 140px;
+  top: 12px;
+  right: 12px;
+  z-index: 9998;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  pointer-events: none;
+}

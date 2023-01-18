@@ -1,0 +1,15 @@
+{
+  "short_name": "Petrol Stations",
+  "name": "Interactive map with petrol stations",
+  "icons": [
+    {
+      "src": "app_logo.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

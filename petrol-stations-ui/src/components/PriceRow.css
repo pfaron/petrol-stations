@@ -1,0 +1,89 @@
+.price-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.price-row + .price-row {
+  border-top: 1px solid lightgray;
+}
+
+.price-actions-container {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+}
+
+.icon-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+  background-color: transparent;
+  border: none;
+}
+
+.up-vote-button {
+  color: green;
+  cursor: pointer;
+}
+
+.up-vote-button-disabled {
+  color: gray;
+  cursor: auto;
+}
+
+.up-vote-button-selected {
+  color: green;
+  cursor: auto;
+}
+
+.down-vote-button {
+  color: red;
+  cursor: pointer;
+}
+
+.down-vote-button-disabled {
+  color: gray;
+  cursor: auto;
+}
+
+.down-vote-button-selected {
+  color: red;
+  cursor: auto;
+}
+
+.edit-button {
+  color: saddlebrown;
+  cursor: pointer;
+}
+
+.edit-button-disabled {
+  color: dimgray;
+  cursor: auto;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: row;
+}
+
+.input-field {
+  width: 60px;
+}
+
+.submit-button {
+  color: blue;
+  cursor: pointer;
+}
+
+.cancel-button {
+  color: red;
+  cursor: pointer;
+}
+
+.strikethrough-old-price {
+  text-decoration: line-through;
+}
